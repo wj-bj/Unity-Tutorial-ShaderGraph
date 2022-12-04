@@ -25,7 +25,7 @@ Material:
     type: 3}
   m_ValidKeywords:
   - _CHANNEL_XY
-  - _COORDINATETYPE_LOCAL
+  - _COORDINATETYPE_WORLD
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -55,8 +55,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _CHANNEL: 0
-    - _COORDINATETYPE: 0
-    - _OutputTexture: 1
+    - _COORDINATETYPE: 1
+    - _OutputTexture: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
