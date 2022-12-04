@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 9a3dac09e1fa33141bb954d4b290337e
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Calliper_Mat
+    second: {fileID: 2100000, guid: 92640c096b627d846be4adf77ed687fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disc_Mat
+    second: {fileID: 2100000, guid: d9f21fa699b13974e834a9abf55b8eab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Logo_Mat
+    second: {fileID: 2100000, guid: 06121d6a53e9fd6458a014b11d2e9b9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackoff
+    second: {fileID: 2100000, guid: 526d5390cef916e45a9f6c7d1564c4d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackoff_na_windowblackoff
+    second: {fileID: 2100000, guid: 07421e112a9dfae469f87d255a95396b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpaint_metallic_729glaciersilver
+    second: {fileID: 2100000, guid: 569f83b3d65653c4a9ae6ffe2c686c29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpaint_solid_019blackstone
+    second: {fileID: 2100000, guid: 3a847b35a290a8b4e8f98034cdb76edf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpet_needlefelt_charcoalsolid
+    second: {fileID: 2100000, guid: 37a4857f5b02f2745904063b42462495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpet_nonwoven_charcoalsolid
+    second: {fileID: 2100000, guid: b1c844b194130f84bbe10714ecc0f684, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deco_bright_chrome
+    second: {fileID: 2100000, guid: b111a70ae5bc2d642addfe33483d810a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deco_exteriorbright_chrome
+    second: {fileID: 2100000, guid: c6b739c01a66be84385425f14c74533d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deco_exteriorhighgloss_black
+    second: {fileID: 2100000, guid: ed3352f173b3bcd45accfe9b40858978, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deco_exteriorsatinsilk_chrome
+    second: {fileID: 2100000, guid: efe9dacaba936864e90a009387ee926b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deco_interiorhighgloss_black
+    second: {fileID: 2100000, guid: 5efcb517a887d64449c4d2cb3a4ad01f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deco_interiorsatinsilk_chrome
+    second: {fileID: 2100000, guid: c37fb72dc8edd0c43a99b9e317927bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deco_interiorsatinsilk_chrome_baked
+    second: {fileID: 2100000, guid: f24dce14c277d9d44b23eea82c1aab2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decoinlay_cuttingedge_aluminium
+    second: {fileID: 2100000, guid: dce03e99480c75b4d94d100a67dc8276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: display_na_csd
+    second: {fileID: 2100000, guid: c54dea456c0b1da4db582efb89dedb72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: display_na_dim
+    second: {fileID: 2100000, guid: d9e974a330700374aaef3ba6c15c3700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass_na_clear
+    second: {fileID: 2100000, guid: 372e9e2413cbc1c4480bc228c877e0d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass_na_tinted
+    second: {fileID: 2100000, guid: 9a6e4498868b50b4788d3706f130e002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leather_agnes_charcoalsolid
+    second: {fileID: 2100000, guid: 647a4ce231811664ca0a6a34f1054796, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leather_agnesperforatedsquare_charcoalsolid
+    second: {fileID: 2100000, guid: 56410470454b4694d96b462f17f9378d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leather_haircellprint_charcoalsolid
+    second: {fileID: 2100000, guid: 59c5594758519864e915f8275cb31178, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leather_nubuck_charcoalsolid
+    second: {fileID: 2100000, guid: f15e147594a85da428224548b82aab68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_brushed_brushed
+    second: {fileID: 2100000, guid: 7e87b710b9488c540802ddd1b62aca8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_brushed_charcoalsolid
+    second: {fileID: 2100000, guid: 94c540a4c34716243b897181503faa8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_galvanized_aluminum
+    second: {fileID: 2100000, guid: 109ddc102d32a5046b22359d86ab914c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_grained_chrome
+    second: {fileID: 2100000, guid: 2992005903462454b9faf0f7882c233a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_na_black
+    second: {fileID: 2100000, guid: fe019b483228d61478a024ff4c811627, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_na_stainlesssteel
+    second: {fileID: 2100000, guid: f68b87e14a8eb7647857f78b210e09af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_powder_stdblack
+    second: {fileID: 2100000, guid: bd52bf7c8c75b9040a54d712ff9c5ea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mirror_mirror_na
+    second: {fileID: 2100000, guid: e2ce95418ac90c94e9c4d071e17e834b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: numberplate_xc40
+    second: {fileID: 2100000, guid: b9f3a60fa0886a3409ea2a52a2c1434a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: opaline_na_grey
+    second: {fileID: 2100000, guid: 5275615678d8cbb40b750e655f8502d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_exteriorcoarse_charcoalsolid
+    second: {fileID: 2100000, guid: a14c1ccbd89329a42bffa6a26b8a91ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_exteriorcoarse_classicblack
+    second: {fileID: 2100000, guid: 2c963a5278f3fe047b7fe4bf4dbc5040, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_exteriorfine_blue
+    second: {fileID: 2100000, guid: cb2afd600f55b5c48a8be243e17b8de5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_exteriorfine_charcoalsolid
+    second: {fileID: 2100000, guid: 04b3fd57ccc9a3346aaab0de22485cc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_exteriorfine_classicblack
+    second: {fileID: 2100000, guid: f7c669b859dc5c048aa74b8a52fa1e74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_exteriorfine_red
+    second: {fileID: 2100000, guid: 9780db168bd191040a7b91757af88584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_fine_charcoalsolid
+    second: {fileID: 2100000, guid: a563ca983462f8e43bab99ad4d4e6b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_fine_charcoalsolid_baked
+    second: {fileID: 2100000, guid: 20aedbbb7cb77504aa18b6d0d4ba1441, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_highgloss_white
+    second: {fileID: 2100000, guid: 20105daa566652549b9bb77a1d99f1d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_matt_white
+    second: {fileID: 2100000, guid: 026dd9cdb74e98f40801ce54c110b372, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_mid_charcoalsolid
+    second: {fileID: 2100000, guid: 6d6a842c2e02f204d82655f3d18f2480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_nug_charcoalsolid
+    second: {fileID: 2100000, guid: 42757d8ae01428f4387637d287ecd464, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_paint_charcoalsolid
+    second: {fileID: 2100000, guid: 53de24aad50d47449884ea71ab8978e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_paint_charcoalsolid_baked
+    second: {fileID: 2100000, guid: 90a8e25c48ce75f4d8e9b1c052f9d775, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_stim_charcoalsolid
+    second: {fileID: 2100000, guid: 9a59eeb4f6b17a54992366cfc02ca8eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: purspray_stim_charcoalsolid
+    second: {fileID: 2100000, guid: f664cd9dddc6b73499180120abe26edd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rim_diamondcut_aluminum
+    second: {fileID: 2100000, guid: 43a8c1f0cff988f4e82f57b97a4f0133, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rim_solid_019blackstone
+    second: {fileID: 2100000, guid: 595cddaefc8914747b8c300da72e8e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rubber_na_charcoalsolid
+    second: {fileID: 2100000, guid: 65dd2bea5f2d81443a7ae5cba4763883, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rubber_na_charcoalsolid_baked
+    second: {fileID: 2100000, guid: 0671165c1f5213841a488003b8502949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: text_na_black
+    second: {fileID: 2100000, guid: 215bd94c4d71f1e4eae4be072c7a586f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: text_na_red
+    second: {fileID: 2100000, guid: a37617fa8a66fe74da79d57deaa8eafc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: text_na_silver
+    second: {fileID: 2100000, guid: ffa6750a9eba0ab46ac654867a06794d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: text_na_white
+    second: {fileID: 2100000, guid: 1fe3452e32725ca4eaffb185ef68bc72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textile_antila_charcoalsolid
+    second: {fileID: 2100000, guid: ecd5ad42dad82c546a4cdaaaecd12fde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textile_elasticband_charcoalsolid
+    second: {fileID: 2100000, guid: f65ce8f6cd79dfd4b9f0f56396db7cda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textile_gsgathena_charcoalsolid
+    second: {fileID: 2100000, guid: 05af7cef90a800b4db756ea323d3f655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textile_netpocket_charcoalsolid
+    second: {fileID: 2100000, guid: 57cb9f61584c56c4aab7e0d8ef159a2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textile_seatbelt_charcoalsolid
+    second: {fileID: 2100000, guid: f74042ece63a3f249ae35dc585c83b2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tire_na
+    second: {fileID: 2100000, guid: e617a674783a6b445883aa0e84304998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transparentplastic_frosted_clear
+    second: {fileID: 2100000, guid: 4df9824e223a3114d95250ab3fe72d8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transparentplastic_frosted_semiclear
+    second: {fileID: 2100000, guid: f7a48c42d1ffa8c4abf207f478681c61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transparentplastic_na_charcoalsolid
+    second: {fileID: 2100000, guid: 8bd406e33820063439ab527ed55fc315, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transparentplastic_na_clear
+    second: {fileID: 2100000, guid: 65b16b036051dce478aaf5124aec97b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transparentplastic_na_red
+    second: {fileID: 2100000, guid: 5170e2d85c277b1488ba1be94df436a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transparentplastic_reflex_red
+    second: {fileID: 2100000, guid: 1fe799f85e113d04aaa3a2b4d84ee526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tricotplastic_agnes_charcoalsolid
+    second: {fileID: 2100000, guid: 4d6e72220f0ef8b46bd1c28bac567e0f, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 3
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 0
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
